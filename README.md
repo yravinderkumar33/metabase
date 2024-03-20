@@ -39,8 +39,6 @@ Following endpoints needs to be proxied for a successful connection
 - Alerts over email or slack
 - Share dashboard/chart directly over slack or email or using public url.
 
-Attached screenshots for reference
-
 3 - Alerts feature - Generate alert on some condition - email / slack channel.
 
 We can setup a goal line in a line chart. When you set up a goal line alert on a question, Metabase will notify you when the results go above or below a goal line you define.
@@ -71,6 +69,8 @@ Full List - https://www.metabase.com/docs/latest/questions/query-builder/express
 
 11 - Permissions works on a group level. Each group is assigned permissions and users can be assigned to multiple groups. (Most of fine grained permissions are available with enterprise version).
 
+12 - Has support for Google SSO and LDAP. LDAP groups are auto mapped to metabase groups.
+
 # Cons
 
 1 - Sql query is not supported with druid as database. It supports native queries.
@@ -80,4 +80,6 @@ Full List - https://www.metabase.com/docs/latest/questions/query-builder/express
 2 - Number of default charts are lesser compared to superset.
 
 3 - Most of fine grained permissions (global and table level) are available in enterprise version but not in open source
+
+4 - Trino is not available in Metabase as default database while its there with superset to query from HMS.
 
