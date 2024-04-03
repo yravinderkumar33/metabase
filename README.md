@@ -10,6 +10,8 @@ Created a druid proxy-service which acts as a reverse proxy to Druid.
 
 Following endpoints needs to be proxied for a successful connection 
 
+https://github.com/yravinderkumar33/metabase/blob/main/druid-proxy-service/index.js
+
 1 - All API's prefixed with /druid
 
 2 - /status for health check
