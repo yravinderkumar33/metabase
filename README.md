@@ -73,6 +73,7 @@ Full List - https://www.metabase.com/docs/latest/questions/query-builder/express
 11 - Permissions works on a group level. Each group is assigned permissions and users can be assigned to multiple groups. (Most of fine grained permissions are available with enterprise version).
 
 12 - Has support for Google SSO and LDAP. LDAP groups are auto mapped to metabase groups.
+13 - Report Drill down feature is relatively better.
 
 # Cons
 
