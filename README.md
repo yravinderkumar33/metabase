@@ -83,5 +83,5 @@ Full List - https://www.metabase.com/docs/latest/questions/query-builder/express
 
 4 - Trino is not available in Metabase as default database while its there with superset to query from HMS.
 
-5 - SSO is not available. Available with enterprise version
+5 - SSO is not available. Available with enterprise version. Open source version supports only Google and LDAP(Basic Auth)
 
