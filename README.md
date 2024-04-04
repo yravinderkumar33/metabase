@@ -85,7 +85,7 @@ Full List - https://www.metabase.com/docs/latest/questions/query-builder/express
 
 3 - Most of fine grained permissions (global and table level) are available in enterprise version but not in open source
 
-4 - Trino is not available in Metabase as default database while its there with superset to query from HMS.
+4 - Trino is not available in Metabase as default database while its there with superset to query from HMS. But it has support for Presto in open source version to query from lakehouse
 
 5 - SSO is not available. Available with enterprise version. Open source version supports only Google and LDAP(Basic Auth)
 
